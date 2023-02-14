@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h1{
+			color: blue;
+		}
+
+		#login{
+			width: 100px;
+			height: 35px;
+			border-radius: 10%;
+			border:1px solid skyblue;
+			background: linear-gradient(20deg, blue, cyan);
+			color: white;
+		}
+
+		#login:hover{
+			box-shadow: 4px 2px 5px black;
+			background: linear-gradient(20deg, blue, cyan);
+		}
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<h1>Login Form</h1>
+	<div class="form-container">
+		<form action="#" method="POST" style="width: 70%;">
+			<label for="Usename">Username</label>
+			<input type="text" name="username" placeholder="Enter username" id="Usename" autofocus required maxlength="20" minlength="3" />
+			<br/><br/>
+
+			<label for="Usename">Email</label>
+			<input type="Email" name="Email" placeholder="Enter email" id="Usename" autofocus required />
+			<br/><br/>
+
+			<label for="psw">Password</label>
+			<input type="password" name="password" placeholder="Password" id="psw" required />
+			<br/><br/>
+
+			<label>Hobbies</label>
+			<input type="checkbox" name="reading">reading
+			<input type="checkbox" name="swimming">swimming
+			<input type="checkbox" name="drawing">drawing
+			<br/><br/>
+
+			<label>Gender</label>
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			<input type="radio" name="gender">Other
+			<br/><br/>
+
+			<input type="submit" name="login" value="Log In" id="login" />
+
+			<button type="button">Cancle</button>
+		</form>
+	</div>
+</body>
+</html>
+
+
